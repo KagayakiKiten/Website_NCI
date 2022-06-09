@@ -67,3 +67,44 @@ header {
   right: 0;
   width: 100%;
 }
+.home-hero__content {
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  transform: translateY(75%);
+  width: calc(100% - 10rem);
+  padding-top: 1rem;
+}
+
+.home-hero__content__text {
+  padding: .5rem;
+  max-width: 25rem;
+  margin-top: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.home-hero__tagline {
+  font-size: 75px;
+  font-weight: 700;
+  margin: .3rem 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+  margin-right: 20px !important;
+}
+
+body h1, body h2 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.text-warning {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-white {
+  background-color: rgba(250, 235, 215, var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
+}
