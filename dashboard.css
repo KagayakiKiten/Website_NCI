@@ -4,7 +4,7 @@ header {
 
 .uk-navbar {
   box-sizing: border-box;
-  height: .67rem;
+  height: 0.67rem;
   position: relative;
   top: 0;
   width: 100%;
@@ -12,7 +12,7 @@ header {
   display: inline-block;
   font-family: 'Raleway';
 }
-.nav-link{
+.nav-link {
   color: white;
 }
 
@@ -20,7 +20,7 @@ header {
   margin-left: 25%;
   margin-top: 25px;
 }
-.navbar_logo{
+.navbar_logo {
   width: 45%;
 }
 .nav-link {
@@ -52,7 +52,7 @@ header {
 }
 
 .home-hero__background::after {
-  content: "";
+  content: '';
   background: #000;
   opacity: 0.5;
   height: auto;
@@ -74,11 +74,11 @@ header {
   margin: 0 auto;
   transform: translateY(75%);
   width: calc(100% - 10rem);
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .home-hero__content__text {
-  padding: .5rem;
+  padding: 0.5rem;
   max-width: 25rem;
   margin-top: 100px;
   font-family: 'Raleway', sans-serif;
@@ -87,7 +87,7 @@ header {
 .home-hero__tagline {
   font-size: 75px;
   font-weight: 700;
-  margin: .3rem 0;
+  margin: 0.3rem 0;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -95,7 +95,8 @@ header {
   margin-right: 20px !important;
 }
 
-body h1, body h2 {
+body h1,
+body h2 {
   font-weight: 700;
   margin: 0;
 }
@@ -158,10 +159,14 @@ body div {
   padding-bottom: 20px;
 }
 
+.about {
+  height: 1000px;
+}
+
 p,
 h1,
 h3 {
   margin-block-end: 0 !important;
   margin-block-start: 0 !important;
-  margin-bottom: 0 !important
+  margin-bottom: 0 !important;
 }
