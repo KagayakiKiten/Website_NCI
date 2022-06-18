@@ -219,14 +219,14 @@ img.profile_us {
 
 .title-desc-mentor {
   padding-left: 5px;
-  font-family: 'Raleway'
+  font-family: 'Raleway';
 }
 
 .host-mentor {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   margin-top: 0;
-  margin-bottom: .5em !important;
+  margin-bottom: 0.5em !important;
   font-size: 1em !important;
   line-height: 1.6em !important;
   padding-left: 5px;
@@ -250,8 +250,8 @@ a {
   line-height: 24px;
   position: relative;
   transition-property: background-color, border-color, color, fill, stroke;
-  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-  transition-duration: .3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.3s;
   min-width: 44px;
 }
 
@@ -273,7 +273,8 @@ a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .c-feature-card-spot__card, __card {
+  .c-feature-card-spot__card,
+  __card {
     width: 100%;
   }
 
@@ -362,13 +363,13 @@ footer {
 .company-name {
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
-  color: #1B2430;
+  color: #1b2430;
 }
 
 .address-company {
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
-  color: #1B2430;
+  color: #1b2430;
 }
 
 .col-sm {
@@ -377,17 +378,17 @@ footer {
 
 .text-cap {
   display: block;
-  color: #1B2430;
+  color: #1b2430;
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: .03125rem;
+  letter-spacing: 0.03125rem;
   margin-bottom: 1rem;
   font-family: 'Work Sans', sans-serif;
 }
 
 .text-primary-gray {
   --bs-text-opacity: 1;
-  color: #1B2430 !important;
+  color: #1b2430 !important;
 }
 
 .mb-0 {
@@ -399,14 +400,18 @@ footer {
   list-style: none;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  color: #1B2430;
+  color: #1b2430;
 }
 
 ul {
   margin-top: 0;
 }
 
-.list-py-1>li {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+.list-py-1 > li {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+#research {
+  background-color: white;
 }
