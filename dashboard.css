@@ -269,6 +269,10 @@ a {
   color: rgba(255, 255, 255);
 }
 
+.research{
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
 .bg-green-thin3,
 .bg-green-thin6 {
   background-color: rgba(74, 201, 227, var(--tw-bg-opacity));
