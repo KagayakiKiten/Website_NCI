@@ -269,9 +269,9 @@ a {
   color: rgba(255, 255, 255);
 }
 
-.research{
+.research {
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 5rem;
 }
 .bg-green-thin3,
 .bg-green-thin6 {
@@ -700,7 +700,7 @@ video {
 }
 
 .publication {
-  margin-top: -5.5rem;
+  margin-top: -8rem;
 }
 
 .title-publication {
